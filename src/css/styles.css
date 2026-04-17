@@ -3,7 +3,7 @@
 :root {
   --radius: 0.5rem;
   --border: hsl(214.3, 31.8%, 91.4%);
-  --ring: hsl(249, 80%, 45%);
+  --ring: hsl(239, 81%, 45%);
   --background: hsl(0, 0%, 100%);
   --foreground: hsl(222.2, 84%, 4.9%);
   --muted: hsl(210, 40%, 96.1%);
