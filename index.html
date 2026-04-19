@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Visualizador de Perfil do GitHub</title>
+    <title>GitHub Profile Viewer</title>
 
     <link rel="stylesheet" href="src/css/reset.css">
     <link rel="stylesheet" href="src/css/styles.css">
@@ -22,14 +22,20 @@
             <header>
                 <h2>Buscar Usuário</h2>
                 <p class="search-hint">Digite o nome de usuário do GitHub e tenha acesso aos dados do perfil</p>
+
                 <input type="text" id="input-search" placeholder="Digite o nome do usuário no GitHub">
-                
                 <input type="button" value="Buscar" id="btn-search">
             </header>
 
-            <div class="profile-results"></div>
+            <div class="profile-results">
+                <div id="status"></div>
+                <div id="profile"></div>
+                <div id="repos"></div>
+            </div>
         </section>
     </main>
+
+    <script src="js/index.js"></script>
 </body>
 
 </html>
