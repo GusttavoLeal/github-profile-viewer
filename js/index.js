@@ -57,7 +57,7 @@ function renderRepos(repos) {
   const lastRepos = repos.slice(0, 10)
 
   reposContainer.innerHTML = `
-    <h2 class="repos-title">Repositórios</h2>
+    <h2 class="repos-title">Repositories</h2>
     <div class="repos-grid">
       ${lastRepos.map(repo => `
         <div class="repo-card">

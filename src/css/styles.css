@@ -168,3 +168,10 @@ header h2 {
   font-size: 0.85rem;
   color: #94a3b8;
 }
+
+.devicon-github-original {
+  font-size: 50px;
+  margin-bottom: 1rem;
+  color: #fff;
+  display: block;
+}
