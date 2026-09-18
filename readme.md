@@ -1,37 +1,27 @@
 # GitHub Profile Viewer
 
-A modern web application to search and visualize GitHub user profiles and repositories in a beautiful, responsive interface.
+Aplicação web para consulta e visualização de perfis e repositórios do GitHub, com interface moderna, responsiva e integração com a GitHub REST API.
 
-## Features
+## Funcionalidades
 
--  **Search any GitHub user** by username
--  **Displays user profile**: avatar, name, bio, followers, and following
--  **Lists up to 10 latest repositories**: name, stars, forks, watchers, and language
--  **Live data** fetched directly from the GitHub API
--  **Modern UI** with smooth animations and responsive design
--  **Dark theme** for comfortable viewing
+* Busca de usuários por nome de usuário
+* Exibição de informações do perfil
+* Listagem dos 10 repositórios mais recentes
+* Dados atualizados diretamente pela GitHub REST API
+* Informações de estrelas, forks, watchers e linguagem
+* Interface responsiva com tema escuro e animações
 
+## Tecnologias
 
+* HTML5
+* CSS3
+* JavaScript (ES6+)
+* GitHub REST API
+* Devicon
 
-## How It Works
+## Estrutura
 
-1. Enter a GitHub username in the search field.
-2. Click "Search" or press Enter.
-3. The app fetches and displays the user's profile and repositories.
-
-## Technologies Used
-
-- **HTML5** & **CSS3** (Flexbox, Grid, Animations, Responsive)
-- **JavaScript (ES6+)**
-- **GitHub REST API**
-- **Devicon** for GitHub icon
-
-
-	```
-
-## Folder Structure
-
-```
+```text
 /
 ├── index.html
 ├── js/
@@ -44,9 +34,9 @@ A modern web application to search and visualize GitHub user profiles and reposi
 │       └── responsive.css
 ├── imagens/
 │   └── g.png
-└── readme.md
+└── README.md
 ```
 
 ---
 
-### Developed by **Gustavo Leal**
+### Desenvolvido por Gustavo Leal — Full Stack Developer
