@@ -38,5 +38,6 @@ Aplicação web para consulta e visualização de perfis e repositórios do GitH
 ```
 
 ---
+---
 
 ### Desenvolvido por Gustavo Leal — Full Stack Developer
